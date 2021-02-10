@@ -11,7 +11,6 @@
         android:id="@+id/imageView"
         android:layout_width="0dp"
         android:layout_height="200dp"
-        android:layout_marginTop="-50dp"
         android:background="#455ABD"
         android:backgroundTint="#FFFFFF"
         app:layout_constraintEnd_toEndOf="parent"
@@ -23,10 +22,10 @@
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="50dp"
+        android:layout_marginTop="20dp"
         android:text="Saiba a melhor opção para o abastecimento do seu carro"
         android:textAlignment="center"
-        android:textSize="24sp"
+        android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView" />
@@ -38,7 +37,7 @@
         android:layout_marginTop="20dp"
         android:ems="10"
         android:hint="Preço Álcool ex: 1.90"
-        android:inputType="number"
+        android:inputType="numberDecimal"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView" />
@@ -50,7 +49,7 @@
         android:layout_marginTop="20dp"
         android:ems="10"
         android:hint="Preço Álcool ex: 2.90"
-        android:inputType="number"
+        android:inputType="numberDecimal"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/etAlcool" />
